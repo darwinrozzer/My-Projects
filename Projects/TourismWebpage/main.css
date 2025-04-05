@@ -69,6 +69,7 @@
   font-family: "Playfair Display";
   color: #20384a;
   font-weight: bold;
+  cursor:pointer;
 }
 
 .card-para {
