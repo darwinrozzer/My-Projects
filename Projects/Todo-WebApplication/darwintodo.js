@@ -8,7 +8,7 @@ function getTodoListFromLocalStorage() {
     if (parsedTodoList === null) {
         return [];
     } else {
-        // 👇 Append this to re-render after refresh
+        
         for (let todo of parsedTodoList) {
             createAndAppendTodo(todo);
         }
